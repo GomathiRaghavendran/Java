@@ -1,0 +1,19 @@
+import java.io.*;
+class addoreven
+{
+public static void main(String arg[])throws IOException 
+{
+int n;
+DataInputStream in=new DataInputStream(System.in);
+System.out.println("Enter the value of n=");
+n=Integer.parseInt(in.readLine());
+if(n%2==0)
+{
+System.out.println("n is even");
+}
+else
+{
+System.out.println("n is odd");
+}
+}
+}
